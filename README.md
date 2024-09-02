@@ -69,5 +69,11 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
+For any questions or suggestions, please contact joshtrineheart@gmail.com
+
+
+
+## Contact
+
 For any questions or suggestions, please contact your-email@example.com.
 
