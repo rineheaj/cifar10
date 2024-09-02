@@ -1,17 +1,18 @@
 # cifar10
 Initial commit
 
-# CIFAR10 Web Model
+# <span style="color: #1E90FF;">CIFAR10 Web Model</span>
 
 This is a Streamlit web application that allows users to upload an image and get predictions based on the CIFAR10 model. The app processes the uploaded image, resizes it, and uses a pre-trained TensorFlow model to predict the class of the image.
 
-## Features
+## <span style="color: #32CD32;">Features</span>
 
 - Upload an image (jpg or png) to get predictions.
 - Choose a custom color for the prediction graph.
 - Displays the probability of each class in the CIFAR10 dataset.
+- Train a new model with your own dataset.
 
-## Installation
+## <span style="color: #FF4500;">Installation</span>
 
 To run this application locally, follow these steps:
 
@@ -32,25 +33,37 @@ To run this application locally, follow these steps:
     pip install -r requirements.txt
     ```
 
-4. Run the Streamlit app:
+## <span style="color: #8A2BE2;">Model Training</span>
+
+Before running the application, you need to train the model with your dataset. Follow these steps:
+
+1. Prepare your dataset and place it in the appropriate directory.
+2. Run the model training script:
+    ```bash
+    python model_trainer.py
+    ```
+3. The trained model will be saved as `cifar10_model1.keras`.
+
+## <span style="color: #FFD700;">Usage</span>
+
+1. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
 
-## Usage
+2. Open the web application in your browser.
+3. Upload an image that fits into one of the CIFAR10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck).
+4. Choose a color for the prediction graph.
+5. View the predictions and the probability graph.
 
-1. Open the web application in your browser.
-2. Upload an image that fits into one of the CIFAR10 classes (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck).
-3. Choose a color for the prediction graph.
-4. View the predictions and the probability graph.
-
-## Files
+## <span style="color: #FF69B4;">Files</span>
 
 - `app.py`: The main Streamlit application file.
+- `model_trainer.py`: The script to train the model with your dataset.
 - `cifar10_model1.keras`: The pre-trained TensorFlow model file.
 - `requirements.txt`: List of required packages.
 
-## Dependencies
+## <span style="color: #00CED1;">Dependencies</span>
 
 - numpy
 - matplotlib
@@ -58,22 +71,18 @@ To run this application locally, follow these steps:
 - tensorflow
 - Pillow
 
-## License
+## <span style="color: #DC143C;">License</span>
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Acknowledgements
+## <span style="color: #7FFF00;">Acknowledgements</span>
 
 - The CIFAR10 dataset is provided by the Canadian Institute For Advanced Research.
 - The pre-trained model is based on TensorFlow.
 
-## Contact
+## <span style="color: #FF6347;">Contact</span>
 
 For any questions or suggestions, please contact joshtrineheart@gmail.com
 
 
-
-## Contact
-
-For any questions or suggestions, please contact your-email@example.com.
 
