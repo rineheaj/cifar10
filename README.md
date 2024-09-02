@@ -73,7 +73,7 @@ Before running the application, you need to train the model with your dataset. F
 
 ## 📜 License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is currently not licensed under any agencies.
 
 ## 🙏 Acknowledgements
 
