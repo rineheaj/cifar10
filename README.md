@@ -1,4 +1,4 @@
-# cifar10
+# Cifar10
 Initial commit
 
 # 🌟 CIFAR10 Web Model
