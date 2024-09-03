@@ -58,8 +58,8 @@ Before running the application, you need to train the model with your dataset. F
 
 ## 📁 Files
 
-- `app.py`: The main Streamlit application file.
-- `model_trainer.py`: The script to train the model with your dataset.
+- `main.py`: The main Streamlit application file.
+- `model_trainer.py`: The script to train the model with sample dataset. Script will create the cifar10_model1.keras file.
 - `cifar10_model1.keras`: The pre-trained TensorFlow model file.
 - `requirements.txt`: List of required packages.
 
