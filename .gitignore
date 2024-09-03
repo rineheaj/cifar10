@@ -1,5 +1,4 @@
 .gitattributes
-main.py
 nba_player_stats_scraper.py
 sl_google_stock.py
 sl_ticker_history.py
