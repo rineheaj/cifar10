@@ -84,7 +84,7 @@ This project is currently not licensed under any agencies.
 
 For any questions or suggestions, please contact joshtrineheart@gmail.com.
 
-
-
-
-
+## Future Ideas
+- [ ] **Add More Image Classification Models**: Integrate additional pre-trained models like ResNet, VGG, or MobileNet to provide users with more options for image classification.
+- [ ] **Implement Real-Time Predictions**: Allow users to use their webcam to capture images and get real-time predictions.
+- [ ] **Enhance User Interface**: Improve the web application's UI/UX by adding more interactive elements, better styling, and responsive design.
